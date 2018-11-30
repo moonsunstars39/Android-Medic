@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Article"
+    tools:showIn="@layout/activity_article">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+        <WebView
+            android:id="@+id/articleweb"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin" />
+
+        <Button
+            android:id="@+id/like"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/articleweb"
+            android:drawableLeft="@drawable/like"
+
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="30dp"
+            android:text="like"
+            />
+        <Button
+            android:id="@+id/unlike"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/articleweb"
+            android:drawableLeft="@drawable/unlike"
+
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:text="dislike"
+            />
+
+        <WebView
+            android:id="@+id/revieweweb"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/unlike"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/writecomment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/revieweweb"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:hint="Write your comment here..."
+            android:inputType="textMultiLine"
+            android:lines="20"
+            android:scrollbars="vertical"
+            />
+        <Button
+            android:id="@+id/submitComment"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/writecomment"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Upload"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="60dp"
+            />
+
+        <Button
+            android:id="@+id/commentback"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/writecomment"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Back"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="60dp"
+            />
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

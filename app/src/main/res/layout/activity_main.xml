@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main"
+    tools:layout_editor_absoluteY="25dp"
+    android:background="#f1e6c4">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+
+
+
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            app:defaultQueryHint="What are you looking for?"
+            app:queryHint="What are you looking for?"
+            android:autofillHints="What are you looking for?"
+            android:gravity="center">
+
+        </SearchView>
+
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:id="@+id/profilepicture"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="140dp"
+
+            android:background="@drawable/defaultprofile"
+            />
+
+        <TextView
+            android:id="@+id/popular"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Popular Articles:"
+            android:textSize="70px"
+            android:layout_below="@id/search"
+
+            />
+        <Button
+            android:id="@+id/writearticle"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/search"
+            android:text="Share your article"
+            android:background="@android:color/white"
+            android:layout_marginTop="60dp"
+            android:layout_alignParentRight="true"
+            android:textSize="25px"
+            />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textSize="50px"
+            android:layout_below="@id/profilepicture"
+            android:layout_marginTop="30dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            />
+
+
+
+        <Button
+            android:id="@+id/manageprofile"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:text="Manage My Profile"
+            android:layout_centerInParent="true"
+            android:background="@android:color/white"
+            android:layout_marginTop="40dp"
+           />
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/manageprofile"
+            android:text="About"
+            android:layout_centerInParent="true"
+            android:background="@android:color/white"
+            android:layout_marginTop="10dp"
+           />
+
+        <Button
+            android:id="@+id/contact"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about"
+            android:text="Contact Us"
+            android:layout_centerInParent="true"
+            android:background="@android:color/white"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/signout"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contact"
+            android:text="Sign Out"
+            android:layout_centerInParent="true"
+            android:background="@android:color/white"
+            android:textColor="#cc0000"
+            android:layout_marginTop="10dp"
+           />
+
+
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:layout_centerInParent="true"
+            android:background="?android:attr/windowBackground"
+            android:layout_below="@id/contact"
+
+            app:menu="@menu/navigation" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

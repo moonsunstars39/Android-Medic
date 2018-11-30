@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".profile"
+    tools:showIn="@layout/activity_profile">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+        <TextView
+            android:id="@+id/fname"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+
+            android:text="First Name:"
+            android:textSize="32dp"
+            />
+
+        <EditText
+            android:id="@+id/fnameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/fname"
+            />
+
+        <TextView
+            android:id="@+id/lname"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fname"
+            android:layout_alignParentLeft="true"
+            android:text="Last Name:"
+            android:textSize="32dp"
+            />
+
+        <EditText
+            android:id="@+id/lastnameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fname"
+            android:layout_toRightOf="@+id/lname"
+            />
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lname"
+            android:layout_alignParentLeft="true"
+            android:text="Gender:"
+            android:textSize="32dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/genderRadiogroup"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/male"
+            android:layout_below="@id/lname"
+            android:layout_toRightOf="@+id/lname">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Female" />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/genderRadiogroup"
+            android:layout_alignParentLeft="true"
+            android:text="Age:"
+            android:textSize="32dp"
+            />
+
+        <EditText
+            android:id="@+id/ageInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/genderRadiogroup"
+            android:layout_toRightOf="@+id/lname"
+            />
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/age"
+            android:layout_alignParentLeft="true"
+            android:text="Phone:"
+            android:textSize="32dp"
+            />
+
+        <EditText
+            android:id="@+id/phoneInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/age"
+            android:layout_toRightOf="@+id/lname"
+            />
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phone"
+            android:layout_alignParentLeft="true"
+            android:text="Address:"
+            android:textSize="32dp"
+            />
+
+        <EditText
+            android:id="@+id/addressInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phoneInput"
+            android:layout_toRightOf="@+id/lname"
+            />
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/address"
+            android:layout_alignParentLeft="true"
+            android:text="City:"
+            android:textSize="32dp"
+            />
+
+        <EditText
+            android:id="@+id/cityInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/address"
+            android:layout_toRightOf="@+id/lname"
+            />
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/city"
+            android:layout_alignParentLeft="true"
+            android:text="State:"
+            android:textSize="32dp"
+            />
+
+        <EditText
+            android:id="@+id/stateInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/city"
+            android:layout_toRightOf="@+id/lname"
+            />
+        <TextView
+        android:id="@+id/zip"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/state"
+        android:layout_alignParentLeft="true"
+        android:text="Zip:"
+        android:textSize="32dp"
+        />
+
+        <EditText
+            android:id="@+id/zipInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/state"
+            android:layout_toRightOf="@+id/lname"
+            />
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/zip"
+            android:layout_alignParentLeft="true"
+            android:text="Email:"
+            android:textSize="32dp"
+            />
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/zip"
+            android:layout_toRightOf="@+id/lname"
+            />
+        <Button
+            android:id="@+id/save"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/Email"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="70dp"
+            android:text="Save"
+            />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".about"
+    tools:showIn="@layout/activity_about"
+    android:background="@drawable/aboutbackground">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="MEDITRIAL 1.0"
+            android:layout_marginTop="50dp"
+            />
+
+        <Button
+            android:id="@+id/termsofuse"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_centerInParent="true"
+            android:text="Terms of Use"
+            />
+
+        <Button
+            android:id="@+id/privacypolicy"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/termsofuse"
+            android:layout_centerInParent="true"
+            android:text="Privacy Policy"
+            />
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:text="© 2018 Meditrial, Inc. All Rights Reserved."
+            android:layout_below="@id/privacypolicy"
+            android:layout_marginTop="20dp"
+            />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

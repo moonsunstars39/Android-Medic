@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".contract"
+    tools:showIn="@layout/activity_contract"
+    android:background="@drawable/aboutbackground">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+
+        <TextView
+            android:id="@+id/phonecontract"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Phone: (520) 272-7355"
+            android:textSize="20dp"
+            android:textColor="#1d0b1c"
+            />
+        <TextView
+            android:id="@+id/emailcontract"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/phonecontract"
+            android:text="Email: yuanhaotian2015@gmail.com"
+            android:textColor="#1d0b1c"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/addresscontract"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/emailcontract"
+            android:text="Address: 405 E Prince Road, Tucson, AZ, 85705"
+            android:textColor="#1d0b1c"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

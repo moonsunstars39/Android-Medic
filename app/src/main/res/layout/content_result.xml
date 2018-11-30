@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Result"
+    tools:showIn="@layout/activity_result">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/companyList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+
+        <Button
+            android:id="@+id/company1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#ffffff"
+            android:text="University of Texas Md Anderson Cancer Center"
+            android:textAllCaps="false"
+            android:gravity="left|center_vertical"
+            />
+        <Button
+            android:id="@+id/company2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:text="Memorial Sloan Kettering Cancer Center"
+            android:textAllCaps="false"
+            android:gravity="left|center_vertical"
+            android:layout_below="@id/company1"
+            />
+        <Button
+            android:id="@+id/company3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:text="Dana-Farber/Brigham and Women's Cancer Center"
+            android:textAllCaps="false"
+            android:gravity="left|center_vertical"
+            android:layout_below="@id/company2"
+            />
+        <Button
+            android:id="@+id/company4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:text="Seattle Cancer Alliance/University of Washington Medical Center"
+            android:textAllCaps="false"
+            android:gravity="left|center_vertical"
+            android:layout_below="@id/company3"
+            />
+        <Button
+            android:id="@+id/company5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:text="H. Lee Moffitt Cancer Center and Research Institute"
+            android:textAllCaps="false"
+            android:gravity="left|center_vertical"
+            android:layout_below="@id/company4"
+            />
+        <Button
+            android:id="@+id/company6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:text="USC Norris Cancer Hospitial-Keek Medical Center of USC"
+            android:textAllCaps="false"
+            android:gravity="left|center_vertical"
+            android:layout_below="@id/company5"
+            />
+        <Button
+            android:id="@+id/company7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:text="Ohio State University James Cancer Hospital"
+            android:textAllCaps="false"
+            android:gravity="left|center_vertical"
+            android:layout_below="@id/company6"
+            />
+
+        <Button
+            android:id="@+id/company8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:text="City of Hope Helford Clinical Research Hospital"
+            android:textAllCaps="false"
+            android:gravity="left|center_vertical"
+            android:layout_below="@id/company7"
+            />
+
+        <Button
+            android:id="@+id/company9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:text="Roswell Park Comprehensive Cancer Center"
+            android:textAllCaps="false"
+            android:gravity="left|center_vertical"
+            android:layout_below="@id/company8"
+            />
+
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

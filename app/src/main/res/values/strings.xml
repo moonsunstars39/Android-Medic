@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">Meditrial</string>
+    <string name="action_settings">Settings</string>
+    <string name="Signup"> Signup </string>
+    <string name="password"> password </string>
+    <string name="username"> username </string>
+    <string name="usernameSignup"> Create your username </string>
+    <string name="passwordSignup"> Create your password </string>
+    <string name="title_activity_terms_of_service">TermsOfService</string>
+
+    <string name="title_activity_signupsuccessfully">signupsuccessfully</string>
+    <string name="dummy_button">Login here</string>
+    <string name="dummy_content">Congratulations! You sign up successfully.</string>
+    <string name="TermsofService">
+        "<b><i>Using our Services</i></b>\n"
+
+        "You must follow any policies made available to you within the Services."
+        "For example, don’t interfere with our Services or try to access them using a method other than the interface and the instructions that we provide. You may use our Services only as permitted by law, including applicable export and re-export control laws and regulations. We may suspend or stop providing our Services to you if you do not comply with our terms or policies or if we are investigating suspected misconduct."
+
+        "Using our Services does not give you ownership of any intellectual property rights in our Services or the content you access. You may not use content from our Services unless you obtain permission from its owner or are otherwise permitted by law. These terms do not grant you the right to use any branding or logos used in our Services. Don’t remove, obscure, or alter any legal notices displayed in or along with our Services."
+
+        "Our Services display some content that is not Meditrial’s. This content is the sole responsibility of the entity that makes it available. We may review content to determine whether it is illegal or violates our policies, and we may remove or refuse to display content that we reasonably believe violates our policies or the law. But that does not necessarily mean that we review content, so please don’t assume that we do."
+
+        "In connection with your use of the Services, we may send you service announcements, administrative messages, and other information. You may opt out of some of those communications."
+
+        "Some of our Services are available on mobile devices. Do not use such Services in a way that distracts you and prevents you from obeying traffic or safety laws."
+
+        "<b><i>Your Meditrial Account</i></b>\n"
+
+        "You may need a Meditrial Account in order to use some of our Services. You may create your own Meditrial Account, or your Meditrial Account may be assigned to you by an administrator, such as your employer or educational institution. If you are using a Meditrial Account assigned to you by an administrator, different or additional terms may apply and your administrator may be able to access or disable your account."
+
+        "To protect your Meditrial Account, keep your password confidential. You are responsible for the activity that happens on or through your Meditrial Account. Try not to reuse your Meditrial Account password on third-party applications."
+
+        "<b><i>Your Content in our Services</i></b>\n"
+        "Some of our Services allow you to upload, submit, store, send or receive content. You retain ownership of any intellectual property rights that you hold in that content. In short, what belongs to you stays yours."
+        "When you upload, submit, store, send or receive content to or through our Services, you give Meditrial (and those we work with) a worldwide license to use, host, store, reproduce, modify, create derivative works (such as those resulting from translations, adaptations or other changes we make so that your content works better with our Services), communicate, publish, publicly perform, publicly display and distribute such content. The rights you grant in this license are for the limited purpose of operating, promoting, and improving our Services, and to develop new ones. This license continues even if you stop using our Services (for example, for a business listing you have added to Google Maps). Some Services may offer you ways to access and remove content that has been provided to that Service. Also, in some of our Services, there are terms or settings that narrow the scope of our use of the content submitted in those Services. Make sure you have the necessary rights to grant us this license for any content that you submit to our Services."
+        "Our automated systems analyze your content (including emails) to provide you personally relevant product features, such as customized search results, tailored advertising, and spam and malware detection. This analysis occurs as the content is sent, received, and when it is stored."
+        "If you have a Meditrial Account, we may display your Profile name, Profile photo, and actions you take on Meditrial or on third-party applications connected to your Meditrial Account (such as +1’s, reviews you write and comments you post) in our Services, including displaying in ads and other commercial contexts. We will respect the choices you make to limit sharing or visibility settings in your Meditrial Account. For example, you can choose your settings so your name and photo do not appear in an ad."
+        "You can find more information about how Meditrial uses and stores content in the privacy policy or additional terms for particular Services. If you submit feedback or suggestions about our Services, we may use your feedback or suggestions without obligation to you."
+
+         "<b><i>About these Terms</i></b>\n"
+        "We may modify these terms or any additional terms that apply to a Service to, for example, reflect changes to the law or changes to our Services. You should look at the terms regularly. We’ll post notice of modifications to these terms on this page. We’ll post notice of modified additional terms in the applicable Service. Changes will not apply retroactively and will become effective no sooner than fourteen days after they are posted. However, changes addressing new functions for a Service or changes made for legal reasons will be effective immediately. If you do not agree to the modified terms for a Service, you should discontinue your use of that Service."
+        "If there is a conflict between these terms and the additional terms, the additional terms will control for that conflict."
+        "These terms control the relationship between Meditrial and you. They do not create any third party beneficiary rights."
+        "If you do not comply with these terms, and we don’t take action right away, this doesn’t mean that we are giving up any rights that we may have (such as taking action in the future)."
+        "If it turns out that a particular term is not enforceable, this will not affect any other terms."
+        "The courts in some countries will not apply California law to some types of disputes. If you reside in one of those countries, then where California law is excluded from applying, your country’s laws will apply to such disputes related to these terms. Otherwise, you agree that the laws of California, U.S.A., excluding California’s choice of law rules, will apply to any disputes arising out of or relating to these terms or the Services. Similarly, if the courts in your country will not permit you to consent to the jurisdiction and venue of the courts in Santa Clara County, California, U.S.A., then your local jurisdiction and venue will apply to such disputes related to these terms. Otherwise, all claims arising out of or relating to these terms or the services will be litigated exclusively in the federal or state courts of Santa Clara County, California, USA, and you and Google consent to personal jurisdiction in those courts."
+    </string>
+    <string name="title_activity_terms_of_privacy">TermsOfPrivacy</string>
+    <string name="TermsofPrivacy">
+        "Coming soon.\n\n"
+
+
+    </string>
+    <string name="title_activity_main">main</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_result">Result</string>
+    <string name="company">
+        "&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<b><i>Cancer Treatment Centers of America</i></b>"
+
+            "CTCA Phoenix"
+            "14200 Celebrate Life Way, Goodyear, AZ 85338"
+            "New Patients: (623) 207-3000"
+            "Existing Patients: (623) 208-5747"
+
+            "North Phoenix"
+            "Outpatient Care Center"
+            "2925 W. Rose Garden Lane,Phoenix, AZ 85027"
+            "(480) 939-4886\n"
+        "<b><i>Natural Cancer Care</i></b>\n"
+            "3200 Middlefield Rd, Palo Alto, CA 943061"
+            "1-650-564-7060"
+
+
+    </string>
+    <string name="title_activity_profile">profile</string>
+    <string name="title_activity_about">about</string>
+    <string name="title_activity_company">company</string>
+    <string name="title_activity_contract">contract</string>
+    <string name="title_activity_write_article">writeArticle</string>
+    <string name="title_activity_article_list">articleList</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_article">Article</string>
+    <string name="title_activity_company1">Company1</string>
+    <string name="title_activity_company2">Company2</string>
+
+
+</resources>
